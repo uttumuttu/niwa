@@ -1,0 +1,3 @@
+Operating system level utilities. The interface is portable, but the
+implementation is currently tightly knit to Windows.
+Static library.

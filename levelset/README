@@ -1,0 +1,4 @@
+A library for treating level sets, and as their special case, signed distance
+fields (these data structures, or rather mathematical constructs, were
+popularized by Stanley Osher and Ronald Fedkiw).
+Static library.

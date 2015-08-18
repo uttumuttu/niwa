@@ -1,0 +1,17 @@
+Niwa (Japanese for 'garden') is a collection of interesting C++ projects,
+written in 2009-2010. It mostly demonstrates larger-scale (25 KLOC) C++
+development, with careful decoupling and documentation (doxygen). The code
+is organized as a single Visual Studio solution containing multiple projects
+(which can be either executables, static libraries or dynamic libraries).
+
+The main executable in the project is demoengine, which uses lua scripting to
+dynamically load, configure and present demo effect libraries (fx_dynamics,
+fx_graphics, fx_levelset, fx_raytrace). The demo effects in turn rely on
+various statically compiled libraries (e.g., graphics, levelset, raytrace,
+photonmap).
+
+This public version only contains source codes. Namespaces and folder
+structure correspond one-to-one as in Java. I have removed third party
+projects, namely boost, freeglut, libjpeg and lua (with lambda extension).
+I have also removed Visual Studio project and solution files, since they
+were quite convoluted due to version migrations.
