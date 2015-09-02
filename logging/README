@@ -1,2 +1,2 @@
 A thread-safe logging framework similar to Apache's log4j.
-Static library.
+Dynamic library.
